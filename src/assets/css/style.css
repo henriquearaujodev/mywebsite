@@ -170,6 +170,9 @@ li {
   background-color: #e7d217;
 }
 
+.header .header-box-1 .btn-talk a:visited {
+  color: #000;
+}
 .header .header-box-2 {
   width: 60rem;
   /* background-color: #f5cd9c; */
@@ -187,6 +190,8 @@ li {
   border-radius: 50px;
   margin-right: -8rem;
   margin-top: 2rem;
+  animation: bounce 3s infinite alternate;
+  -webkit-animation: bounce 3s infinite alternate-reverse;
 }
 
 .circle2 {
@@ -197,6 +202,82 @@ li {
   -webkit-border-radius: 50px;
   border-radius: 50px;
   margin-top: 20rem;
+  animation: bounce2 3s infinite alternate;
+  -webkit-animation: bounce2 3s infinite alternate-reverse;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+
+  75% {
+    transform: translateX(20px);
+  }
+
+  80% {
+    transform: translateY(-20px);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+
+  75% {
+    transform: translateX(20px);
+  }
+
+  80% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes bounce1 {
+  0% {
+    transform: translateY(0px);
+    transform: translate(-80deg);
+  }
+  50% {
+    transform: translateY(20px);
+    transform: translate(-80deg);
+  }
+
+  75% {
+    transform: translateX(20px);
+    transform: translate(-58deg);
+  }
+
+  80% {
+    transform: translateY(-20px);
+    transform: translate(80deg);
+  }
+}
+@-webkit-keyframes bounce2 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+    transform: translate(35deg);
+  }
+
+  75% {
+    transform: translateX(-20px);
+    transform: translate(-55deg);
+  }
+
+  80% {
+    transform: translateY(20px);
+    transform: translate(35deg);
+  }
 }
 
 .header .header-box-2 .triangle-flex {
@@ -212,6 +293,8 @@ li {
   border-bottom: 80px solid rgba(247, 225, 26, 0.384);
   transform: rotate(175deg);
   /* margin-left: 4rem; */
+  animation: bounce 3s infinite alternate;
+  -webkit-animation: bounce 3s infinite alternate;
 }
 
 .triangle2 {
@@ -222,6 +305,8 @@ li {
   border-bottom: 80px solid rgba(247, 225, 26, 0.856);
   transform: rotate(100deg);
   /* margin-left: 4rem; */
+  animation: bounce2 3s infinite alternate;
+  -webkit-animation: bounce2 3s infinite alternate-reverse;
 }
 
 .header .header-box-2 img {

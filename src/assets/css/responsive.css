@@ -31,6 +31,11 @@
   .circle2 {
     width: 40px;
     height: 40px;
+    /* margin-top: 10rem; */
+  }
+
+  .header .header-box-2 .triangle-flex {
+    margin-top: -10rem;
   }
 
   .header .header-box-2 .triangle-flex .triangle,
@@ -38,6 +43,7 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-bottom: 40px solid rgba(247, 225, 26, 0.856);
+    margin-top: 5rem;
   }
 }
 @media (max-width: 991.98px) {
@@ -58,6 +64,14 @@
     /* align-items: center; */
   }
 
+  .header .header-box-2 .circle {
+    margin-top: -15rem;
+  }
+
+  .header .header-box-2 .circle2 {
+    margin-top: 8rem;
+  }
+
   .header .header-box-1 {
     display: flex;
     align-items: center;
@@ -72,7 +86,8 @@
   }
 
   .divider {
-    display: none;
+    margin-top: -4.1rem;
+    margin-left: -25rem;
   }
 }
 
