@@ -91,8 +91,58 @@
   }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 630px) {
+  .container {
+    width: 60rem;
+  }
+
   .menu {
+    display: flex;
+    padding: 1rem 2rem;
+    height: 7.5rem;
+  }
+
+  .menu .menu-itens {
     display: none;
+  }
+
+  .menu-mobile {
+    /* display: inline-block; */
+  }
+
+  .menu .icon-mobile {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 510px) {
+  .container {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 413px) {
+  .container {
+    width: 45rem;
+  }
+}
+
+@media (max-width: 378px) {
+  .container {
+    width: 40rem;
+  }
+
+  .header .header-box-1 .titulo {
+    font-size: 4rem;
+  }
+
+  .header .header-box-1 .nome {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 35rem;
   }
 }
