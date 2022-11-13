@@ -103,7 +103,7 @@ li {
 
 .header {
   margin-top: 4rem;
-  height: 30rem;
+  /* height: 30rem; */
   padding: var(--padding-sections);
   /* background-color: #2f5e23; */
   display: flex;
@@ -117,14 +117,10 @@ li {
   /* background-color: #f5cd9c; */
 }
 
-.header .header-box-1 .name span {
-  display: block;
-}
-
 .header .header-box-1 .titulo {
   font-size: 6rem;
-  font-weight: 600;
-  color: #a7a7a7;
+  font-weight: 500;
+  color: #3a3a3a;
 }
 
 .header .header-box-1 .nome {
@@ -149,7 +145,7 @@ li {
 
 .header .header-box-1 .cargo {
   font-size: 1.6rem;
-  color: #7e7e7e;
+  color: #424242;
   font-weight: 500;
   margin-top: -3.5rem;
 }
