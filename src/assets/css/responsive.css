@@ -24,11 +24,6 @@
     font-size: 1.6rem;
   }
 
-  .header .header-box-2 img {
-    width: 20rem;
-    /* object-fit: cover; */
-  }
-
   .header .header-box-2 .circle,
   .circle2 {
     width: 40px;
