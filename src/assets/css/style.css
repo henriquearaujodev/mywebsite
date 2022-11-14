@@ -103,19 +103,28 @@ li {
 }
 
 .menu-mobile {
-  display: none;
-  width: 20rem;
+  opacity: 0;
+  width: 25rem;
   height: 200rem;
+  padding: 6rem 2rem 2rem 2rem;
   position: absolute;
   top: 0;
-  right: 0;
-  background-color: #3a3a3a;
-  transform: translateX(20rem);
-  overflow-x: hidden;
+  right: -25rem;
+  background-color: #a33b3b;
+  /* overflow-x: hidden; */
+  z-index: 1;
+  transition: all 0.4s ease-in;
 }
 
 .menu .icon-mobile {
   display: none;
+  z-index: 2;
+}
+
+.menu-mobile-open {
+  display: block;
+  right: -5rem;
+  opacity: 1;
 }
 
 .header {
