@@ -140,6 +140,11 @@ li {
   cursor: pointer;
 }
 
+.menu .icon-mobile img {
+  object-fit: cover;
+  object-position: bottom;
+}
+
 .menu-mobile-open {
   display: block;
   top: 6rem;
