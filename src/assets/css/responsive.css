@@ -94,6 +94,10 @@
     display: none;
   }
 
+  /* .overlay {
+    display: none;
+  } */
+
   .menu .menu-mobile {
     /* display: none; */
   }
@@ -124,6 +128,9 @@
 }
 @media screen and (min-width: 630px) {
   .menu .menu-mobile {
+    display: none;
+  }
+  .overlay {
     display: none;
   }
 }
