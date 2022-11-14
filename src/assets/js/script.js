@@ -11,3 +11,8 @@ btn.addEventListener('click', () => {
     ? menuMobile.classList.add('menu-mobile-open')
     : menuMobile.classList.remove('menu-mobile-open');
 });
+
+overlay.addEventListener('click', () => {
+  menuMobile.classList.remove('menu-mobile-open');
+  overlay.classList.remove('overlay-open');
+});
