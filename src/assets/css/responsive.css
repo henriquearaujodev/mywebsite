@@ -17,6 +17,7 @@
 
   .divider {
     width: 16.5rem;
+    margin-top: -4.5rem;
   }
 
   .header .header-box-1 .cargo p {
@@ -88,7 +89,7 @@
 
   .divider {
     margin-top: -4.1rem;
-    margin-left: -25rem;
+    margin-left: -22rem;
   }
 
   .menu .icon-mobile {
@@ -169,6 +170,11 @@
 
   .header .header-box-1 .nome {
     font-size: 4rem;
+  }
+
+  .divider {
+    margin-top: -4.1rem;
+    margin-left: -14rem;
   }
 }
 
