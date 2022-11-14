@@ -125,7 +125,7 @@ li {
   height: 200rem;
   top: 0;
   left: 0;
-  backdrop-filter: blur(4px);
+  background-color: rgba(105, 105, 105, 0.322);
   display: none;
   z-index: 1;
 }
