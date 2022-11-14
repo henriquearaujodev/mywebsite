@@ -25,7 +25,7 @@
 
   .header .header-box-2 img {
     width: 20rem;
-    object-fit: cover;
+    /* object-fit: cover; */
   }
 
   .header .header-box-2 .circle,
@@ -120,8 +120,8 @@
   }
 
   .header .header-box-2 img {
-    width: 15rem;
-    object-fit: cover;
+    /* width: 15rem; */
+    /* object-fit: cover; */
   }
 
   .menu .menu-mobile {
@@ -141,8 +141,8 @@
   }
 
   .header .header-box-2 img {
-    width: 15rem;
-    object-fit: cover;
+    /* width: 15rem; */
+    /* object-fit: cover; */
   }
 }
 
@@ -173,12 +173,6 @@
 }
 
 @media (max-width: 320px) {
-  .container {
-    width: 100%;
-  }
-}
-
-@media (min-width: 320px) {
   .container {
     width: 100%;
   }
