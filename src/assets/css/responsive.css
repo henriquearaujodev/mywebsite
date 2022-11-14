@@ -1,6 +1,6 @@
 @media screen and (max-width: 1199.98px) {
   .container {
-    width: 100rem;
+    width: 100%;
   }
 
   html {
@@ -48,7 +48,7 @@
 }
 @media screen and (max-width: 991.98px) {
   .container {
-    width: 90rem;
+    width: 100%;
   }
 
   html {
@@ -101,7 +101,7 @@
 
 @media screen and (max-width: 630px) {
   .container {
-    width: 60rem;
+    width: 100%;
   }
 
   .menu {
@@ -122,7 +122,7 @@
     display: inline-block;
   }
 }
-@media screen and (min-width: 625px) {
+@media screen and (min-width: 630px) {
   .menu .menu-mobile {
     display: none;
   }
@@ -130,13 +130,13 @@
 
 @media screen and (max-width: 510px) {
   .container {
-    width: 50rem;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 425px) {
   .container {
-    width: 47rem;
+    width: 100%;
   }
 }
 
@@ -156,6 +156,12 @@
 
 @media (max-width: 320px) {
   .container {
-    width: 35rem;
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+  .container {
+    width: 100%;
   }
 }
