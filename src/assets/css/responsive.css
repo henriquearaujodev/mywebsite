@@ -25,6 +25,7 @@
 
   .header .header-box-2 img {
     width: 20rem;
+    object-fit: cover;
   }
 
   .header .header-box-2 .circle,
@@ -118,6 +119,11 @@
     display: none;
   }
 
+  .header .header-box-2 img {
+    width: 15rem;
+    object-fit: cover;
+  }
+
   .menu .menu-mobile {
     /* display: none; */
   }
@@ -132,6 +138,11 @@
   }
   .overlay {
     display: none;
+  }
+
+  .header .header-box-2 img {
+    width: 15rem;
+    object-fit: cover;
   }
 }
 
