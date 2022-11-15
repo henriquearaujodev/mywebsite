@@ -107,10 +107,10 @@
     display: none;
   }
 
-  .menu .menu-mobile {
-    /* display: none; */
+  .menu .menu-mobile-block {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   .menu .icon-mobile {

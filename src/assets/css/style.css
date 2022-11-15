@@ -106,17 +106,44 @@ li {
   opacity: 0;
   width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: end;
+
   padding: 2rem;
-  justify-content: space-around;
+
   position: fixed;
   right: 0;
   top: 0;
-  background-color: rgb(230, 230, 230);
-
+  background-color: #fff;
   z-index: 1;
   transition: all 0.4s ease-in-out;
+}
+
+.menu-mobile-items {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.menu-mobile-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+}
+
+.menu-mobile-options .itens {
+  height: 35rem;
+}
+
+.menu-mobile-options .itens li {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 2rem;
+}
+
+.menu-mobile-options .itens a {
+  text-decoration: none;
 }
 
 .overlay {
