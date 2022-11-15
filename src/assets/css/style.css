@@ -126,8 +126,9 @@ li {
 .menu-mobile-options {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  margin-top: -20rem;
   gap: 5rem;
 }
 
