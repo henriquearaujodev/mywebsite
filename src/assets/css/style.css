@@ -60,7 +60,7 @@ body {
 .menu {
   /* background-color: olive; */
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,13 +79,13 @@ body {
 }
 
 .menu .menu-options ul {
+  list-style: none;
   display: flex;
   gap: 0.5rem;
 }
 
-.menu .menu-options a,
-a:visited,
-li {
+.menu .menu-options li a,
+a:visited {
   text-decoration: none;
   list-style: none;
   font-size: 1.6rem;
@@ -95,8 +95,8 @@ li {
   transition: all 0.4s ease-out;
 }
 
-.menu .menu-options li:hover {
-  color: #7e7e7e;
+.menu .menu-options a:hover {
+  color: #5c5c5c;
 }
 
 .menu .btn-contact {
@@ -152,6 +152,7 @@ li {
   display: flex;
   justify-content: center;
   margin: 2rem 2rem;
+  padding: 1.2rem;
 }
 
 .menu-mobile-options .itens a {
