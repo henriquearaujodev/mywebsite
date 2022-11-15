@@ -4,6 +4,18 @@ const menuMobile = document.querySelector('.menu-mobile');
 const overlay = document.querySelector('.overlay');
 const openclose = document.querySelector('.open-close');
 
+// btn menu mobile
+const btnInicio = document.querySelector('.btn-inicio');
+const btnPortfolio = document.querySelector('.btn-portfolio');
+
+btnInicio.addEventListener('click', () => {
+  menuMobile.classList.remove('menu-mobile-open');
+});
+
+btnPortfolio.addEventListener('click', () => {
+  menuMobile.classList.remove('menu-mobile-open');
+});
+
 btnOpen.addEventListener('click', () => {
   let open = menuMobile.classList.contains('menu-mobile-open');
 
@@ -16,7 +28,6 @@ btnOpen.addEventListener('click', () => {
 
 btnClose.addEventListener('click', () => {
   menuMobile.classList.remove('menu-mobile-open');
-  console.log('fechou');
 });
 
 overlay.addEventListener('click', () => {
