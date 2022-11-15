@@ -13,8 +13,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-a:visited {
   color: #000;
 }
 
@@ -341,6 +339,7 @@ a:visited {
 }
 
 .portfolio {
+  width: 120rem;
   margin-top: 5rem;
   background-color: rgb(212, 118, 118);
   padding: var(--padding-sections);
