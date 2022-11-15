@@ -72,8 +72,9 @@ body {
 }
 
 .menu .logo p {
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: 2rem;
+  color: #3a3a3a;
+  font-weight: 600;
 }
 
 .menu .menu-itens {
