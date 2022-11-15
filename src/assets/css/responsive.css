@@ -90,14 +90,6 @@
   .menu .icon-mobile {
     display: none;
   }
-
-  /* .overlay {
-    display: none;
-  } */
-
-  .menu .menu-mobile {
-    /* display: none; */
-  }
 }
 
 @media screen and (max-width: 630px) {
@@ -115,13 +107,10 @@
     display: none;
   }
 
-  .header .header-box-2 img {
-    /* width: 15rem; */
-    /* object-fit: cover; */
-  }
-
   .menu .menu-mobile {
     /* display: none; */
+    display: flex;
+    justify-content: end;
   }
 
   .menu .icon-mobile {
@@ -134,11 +123,6 @@
   }
   .overlay {
     display: none;
-  }
-
-  .header .header-box-2 img {
-    /* width: 15rem; */
-    /* object-fit: cover; */
   }
 }
 
