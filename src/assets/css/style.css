@@ -163,6 +163,10 @@ a:visited {
   text-decoration: none;
 }
 
+.menu-mobile-options .itens a:visited {
+  color: #000;
+}
+
 .overlay {
   position: absolute;
   width: 100vw;
