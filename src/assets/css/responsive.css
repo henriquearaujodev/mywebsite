@@ -26,13 +26,13 @@
 
   .header .header-box-2 .circle,
   .circle2 {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     /* margin-top: 10rem; */
   }
 
   .header .header-box-2 .triangle-flex {
-    margin-top: -10rem;
+    margin-top: -7rem;
   }
 
   .header .header-box-2 .triangle-flex .triangle,
@@ -40,7 +40,7 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-bottom: 40px solid rgba(247, 225, 26, 0.856);
-    margin-top: 5rem;
+    margin-top: -1rem;
   }
 }
 @media screen and (max-width: 991.98px) {
@@ -84,7 +84,7 @@
 
   .divider {
     margin-top: -4.1rem;
-    margin-left: -24.5rem;
+    margin-left: -22rem;
   }
 
   .menu .icon-mobile {
