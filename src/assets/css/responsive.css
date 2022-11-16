@@ -69,6 +69,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0rem 0rem;
+  }
+
+  .portfolio .cards .card {
+    width: 18rem;
   }
 
   .header .header-box-2 .circle {
