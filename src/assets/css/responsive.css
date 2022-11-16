@@ -7,6 +7,13 @@
     width: 100%;
   }
 
+  .portfolio .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 0rem;
+  }
+
   .header .header-box-1 .titulo {
     font-size: 5rem;
   }
@@ -79,15 +86,8 @@
     padding-top: 2rem;
   }
 
-  .portfolio .cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0rem 0rem;
-  }
-
   .portfolio .cards .card {
-    width: 18rem;
+    width: 100vw;
   }
 
   .header .header-box-2 .circle {
