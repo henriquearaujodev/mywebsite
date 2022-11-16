@@ -314,3 +314,42 @@ a:visited {
   object-fit: cover;
   object-position: bottom;
 }
+
+/* ==== PORTFOLIO ==== */
+
+.portfolio {
+  margin-top: 10rem;
+  width: 100%;
+  /* height: 30rem; */
+  /* background-color: orange; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+.portfolio .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  /* background-color: rebeccapurple; */
+}
+.portfolio .title p {
+  font-size: 2rem;
+}
+
+.portfolio .cards {
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.portfolio .cards .card {
+  width: 20rem;
+  height: 25rem;
+  background-color: olivedrab;
+}
