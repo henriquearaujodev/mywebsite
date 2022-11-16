@@ -17,7 +17,7 @@
 
   .divider {
     width: 16.5rem;
-    margin-top: -4.5rem;
+    margin-top: -3rem;
   }
 
   .header .header-box-1 .cargo p {
@@ -55,6 +55,10 @@
   .header .header-box-1 .nome {
     font-size: 4rem;
   }
+  .divider {
+    width: 16.5rem;
+    margin-top: -3.5rem;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -72,7 +76,7 @@
   }
 
   .header .header-box-1 .cargo {
-    margin-top: -2rem;
+    padding-top: 2rem;
   }
 
   .portfolio .cards {
@@ -108,7 +112,7 @@
   }
 
   .divider {
-    margin-top: -2.7rem;
+    margin-top: -1.2rem;
     margin-left: -14.5rem;
   }
 
@@ -181,7 +185,7 @@
   }
 
   .divider {
-    margin-top: -2.9rem;
+    padding-top: -2.9rem;
     margin-left: -14.5rem;
   }
 }
