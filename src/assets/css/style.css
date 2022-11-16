@@ -227,12 +227,25 @@ a:visited {
   font-size: 1.6rem;
   color: #424242;
   font-weight: 500;
-  margin-top: -3.5rem;
+  margin-top: -3rem;
 }
 
 .header .header-box-1 .acao {
   display: flex;
+  align-items: center;
   gap: 3rem;
+}
+
+.header .header-box-1 .social-icons {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.header .header-box-1 .social-icons img {
+  cursor: pointer;
+  width: 2.5rem;
 }
 
 .header .header-box-1 .btn-talk a {
