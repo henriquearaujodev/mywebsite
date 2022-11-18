@@ -57,6 +57,19 @@ body {
   flex-direction: column;
 }
 
+.title {
+  position: relative;
+}
+
+.border-bottom-section-title::before {
+  content: '';
+  position: absolute;
+  width: 15%;
+  height: 0.5rem;
+  top: 4.2rem;
+  background-color: #f7e01a;
+}
+
 /* ======= MENU ======= */
 .menu {
   width: 100%;
