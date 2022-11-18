@@ -403,17 +403,39 @@ a:visited {
   padding: 1rem;
   height: 15rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  /* border-top: 0;
-  border-left: 1px solid #e4e4e4;
-  border-bottom: 1px solid #e4e4e4;
-  border-right: 1px solid #e4e4e4; */
+  /* gap: 1rem; */
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   background-color: #fffbd3;
-  /* align-items: center; */
+}
+
+.portfolio .card-title-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio .card-tags {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: start;
+  /* background-color: rgb(155, 76, 76); */
+}
+
+.portfolio .card-tags .tag {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  border: 2px solid #f7e01a;
+}
+
+.portfolio .card-tags .tag p {
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 .portfolio .card-info {
