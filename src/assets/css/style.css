@@ -349,13 +349,11 @@ a:visited {
 .portfolio {
   margin-top: 6rem;
   width: 100%;
-  /* height: 30rem; */
-  /* background-color: orange; */
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 4rem 4rem;
-  /* position: relative; */
+  margin-top: 10rem;
 }
 
 .portfolio .title {
@@ -500,7 +498,8 @@ a:visited {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 4rem 4rem;
+  margin: 10rem 10rem;
+  padding: 2rem 2rem;
 }
 
 .tecnologies .title {
@@ -531,6 +530,28 @@ a:visited {
 
 .tecnologies .tec-container .tecs img {
   width: 6rem;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10rem 10rem;
+  background-color: orange;
+}
+
+.about .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  background-color: olivedrab;
+}
+
+.about .title p {
+  font-size: 2.5rem;
 }
 
 /* ==== RESPONSIVE ==== */
