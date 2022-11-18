@@ -483,6 +483,36 @@ a:visited {
   color: #3a3a3a;
 }
 
+.tecnologies {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 2rem;
+  height: 20rem;
+  background-color: olive;
+}
+
+.tecnologies .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  background-color: orange;
+}
+
+.tecnologies .title p {
+  font-size: 2.5rem;
+}
+
+.tecnologies .tec-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: firebrick;
+}
+
 /* ==== RESPONSIVE ==== */
 
 @media screen and (max-width: 1199.98px) {
