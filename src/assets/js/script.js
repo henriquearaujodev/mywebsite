@@ -7,8 +7,13 @@ const openclose = document.querySelector('.open-close');
 // btn menu mobile
 const btnInicio = document.querySelector('.btn-inicio');
 const btnPortfolio = document.querySelector('.btn-portfolio');
+const btnTecnologia = document.querySelector('.btn-tecnologias');
 
 btnInicio.addEventListener('click', () => {
+  menuMobile.classList.remove('menu-mobile-open');
+});
+
+btnTecnologia.addEventListener('click', () => {
   menuMobile.classList.remove('menu-mobile-open');
 });
 
