@@ -64,9 +64,9 @@ body {
 .border-bottom-section-title::before {
   content: '';
   position: absolute;
-  width: 15%;
+  width: 5rem;
   height: 0.5rem;
-  top: 4.2rem;
+  top: 4.3rem;
   background-color: #f7e01a;
 }
 
