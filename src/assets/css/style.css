@@ -489,7 +489,6 @@ a:visited {
   flex-direction: column;
   margin: 2rem 2rem;
   height: 20rem;
-  background-color: olive;
 }
 
 .tecnologies .title {
@@ -499,7 +498,6 @@ a:visited {
   width: 100%;
   padding: 2rem;
   margin-bottom: 1rem;
-  background-color: orange;
 }
 
 .tecnologies .title p {
@@ -509,8 +507,18 @@ a:visited {
 .tecnologies .tec-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
   width: 100%;
-  background-color: firebrick;
+}
+
+.tecnologies .tec-container .tecs {
+  width: 6rem;
+}
+
+.tecnologies .tec-container .tecs img {
+  width: 6rem;
 }
 
 /* ==== RESPONSIVE ==== */
