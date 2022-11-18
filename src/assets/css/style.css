@@ -361,13 +361,87 @@ a:visited {
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .portfolio .cards .card {
-  width: 25rem;
+  width: 35rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 1rem;
+}
+
+.portfolio .card-header {
   height: 30rem;
-  background-color: olivedrab;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  background-color: orange;
+  overflow: hidden;
+}
+
+.portfolio .card-header .thumb {
+  /* width: 100%; */
+  object-fit: fill;
+}
+
+.portfolio .card-header .thumb img {
+  max-height: 30rem;
+}
+
+.portfolio .card-title {
+  padding: 1rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* align-items: center; */
+}
+
+.portfolio .card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 25rem;
+  /* background-color: #e7d217; */
+  /* background-color: orangered; */
+}
+
+.portfolio .card-action {
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: olive; */
+}
+
+.portfolio .card-action-btn {
+  padding: 1rem;
+  border-radius: 50%;
+  border: 1px solid #a3a3a3;
+}
+
+.portfolio .card-action-btn:hover {
+  border: 1px solid #8d8d8d;
+  cursor: pointer;
+}
+
+.portfolio .card-action-btn img {
+  width: 2.5rem;
+  height: 2rem;
+  transform: rotate(-35deg);
+}
+
+.portfolio .card-info h1 {
+  font-size: 1.8rem;
+}
+
+.portfolio .card-info p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #3a3a3a;
 }
 
 /* ==== RESPONSIVE ==== */
@@ -461,7 +535,7 @@ a:visited {
   }
 
   .portfolio .cards .card {
-    width: 100vw;
+    /* width: 100vw; */
   }
 
   .header .header-box-2 .circle {
