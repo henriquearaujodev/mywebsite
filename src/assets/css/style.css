@@ -559,7 +559,7 @@ a:visited {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 30vh;
+
   /* background-color: rebeccapurple; */
 }
 
@@ -571,7 +571,7 @@ a:visited {
   justify-content: center;
   align-items: center;
   /* background-color: olive; */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .about .about-container .about-image img {
@@ -579,7 +579,6 @@ a:visited {
 }
 
 .about .about-container .about-info {
-  margin-top: 8rem;
   width: 70%;
   height: 100%;
   padding: 2rem;
@@ -650,7 +649,12 @@ a:visited {
     width: 100%;
   }
 
-  .header .header-box-1 .titulo,
+  .about .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-container .header .header-box-1 .titulo,
   .nome {
     font-size: 4rem;
   }
