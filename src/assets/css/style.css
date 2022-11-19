@@ -677,6 +677,9 @@ a:visited {
     align-items: center;
     /* align-items: center; */
   }
+  .header .header-box-1 {
+    margin-top: 3rem;
+  }
 
   .header .header-box-1 .acao {
     display: flex;
