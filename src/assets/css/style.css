@@ -654,6 +654,12 @@ a:visited {
     flex-direction: column;
   }
 
+  .about .about-container .about-info p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
   .about-container .header .header-box-1 .titulo,
   .nome {
     font-size: 4rem;
