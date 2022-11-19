@@ -39,9 +39,3 @@ btnOpen.addEventListener('click', () => {
 btnClose.addEventListener('click', () => {
   menuMobile.classList.remove('menu-mobile-open');
 });
-
-overlay.addEventListener('click', () => {
-  menuMobile.classList.remove('menu-mobile-open');
-  overlay.classList.remove('overlay-open');
-  openclose.src = './assets/img/menu.svg';
-});
