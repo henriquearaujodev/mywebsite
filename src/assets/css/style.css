@@ -572,6 +572,25 @@ a:visited {
   line-height: 1.4;
 }
 
+.footer {
+  margin-top: 4rem;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: #f7e01a;
+}
+
+.footer .titulo p {
+  font-size: 1.6rem;
+}
+
+.footer .copy p {
+  font-size: 1.2rem;
+}
+
 /* ==== RESPONSIVE ==== */
 
 @media screen and (max-width: 1199.98px) {
