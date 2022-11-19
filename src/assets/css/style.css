@@ -537,7 +537,7 @@ a:visited {
   align-items: center;
   flex-direction: column;
   margin: 10rem 0rem;
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .about .title {
@@ -552,6 +552,22 @@ a:visited {
 
 .about .title p {
   font-size: 2.5rem;
+}
+
+.about .about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  /* background-color: rebeccapurple; */
+}
+
+.about .about-container .about-info {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background-color: rgb(65, 65, 23);
 }
 
 /* ==== RESPONSIVE ==== */
