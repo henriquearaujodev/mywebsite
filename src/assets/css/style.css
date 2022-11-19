@@ -498,7 +498,7 @@ a:visited {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 10rem 10rem;
+  margin: 10rem 0rem;
   padding: 2rem 2rem;
 }
 
@@ -536,7 +536,7 @@ a:visited {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 10rem 10rem;
+  margin: 10rem 0rem;
   background-color: orange;
 }
 
