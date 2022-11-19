@@ -643,11 +643,14 @@ a:visited {
 
   .about-container .header .header-box-1 .titulo,
   .nome {
+    font-size: 3rem;
+  }
+  .header .header-box-1 .titulo {
     font-size: 4rem;
   }
 
   .header .header-box-1 .nome {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
   .divider {
     width: 16.5rem;
@@ -670,7 +673,8 @@ a:visited {
   }
 
   .header .header-box-1 .cargo {
-    padding-top: 2rem;
+    padding-top: 2.5rem;
+    margin-left: -3.6rem;
   }
 
   .header .header-box-2 .circle {
@@ -695,8 +699,8 @@ a:visited {
   }
 
   .divider {
-    margin-top: -1.2rem;
-    margin-left: -14.5rem;
+    margin-top: 0rem;
+    margin-left: -17.2rem;
   }
 
   .menu .icon-mobile {
@@ -760,7 +764,7 @@ a:visited {
 
   .header .header-box-1 .titulo,
   .nome {
-    font-size: 4rem;
+    /* font-size: 4rem; */
   }
 
   .header .header-box-1 .nome {
@@ -769,7 +773,7 @@ a:visited {
 
   .divider {
     padding-top: -2.9rem;
-    margin-left: -14.5rem;
+    margin-left: -17.2rem;
   }
 }
 
