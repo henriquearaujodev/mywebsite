@@ -454,7 +454,6 @@ a:visited {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  width: 25rem;
   /* background-color: #e7d217; */
   /* background-color: orangered; */
 }
