@@ -568,7 +568,7 @@ a:visited {
 
 .about .about-container .about-info p {
   font-size: 2.3rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.4;
 }
 
@@ -652,12 +652,6 @@ a:visited {
   .about .about-container {
     display: flex;
     flex-direction: column;
-  }
-
-  .about .about-container .about-info p {
-    font-size: 1.6rem;
-    font-weight: 600;
-    line-height: 1.4;
   }
 
   .about-container .header .header-box-1 .titulo,
