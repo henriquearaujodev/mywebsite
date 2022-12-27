@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: henrique.one
+Token: deae8704ff4a02e340994e2b5284599ef8e2435ed62d1e573417aebca6553cd1
